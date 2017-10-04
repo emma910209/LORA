@@ -1,0 +1,3 @@
+markedown: redcatpet
+baseurl: /LORA
+exclude: ['README.md']
