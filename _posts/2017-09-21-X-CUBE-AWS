@@ -1,1 +1,11 @@
-X-CUBE-AWS   
+---
+layout: news
+title: X-CUBE-AWS   
+meta: AWS IoT software expansion for STM32Cube (UM2178)
+source: http://www.st.com/en/embedded-software/x-cube-aws.html
+category: news
+--- 
+
+The X-CUBE-AWS software expansion package consists of a set of libraries and application examples for STM32L4 Series, STM32F4 Series and STM32F7 Series microcontrollers acting as end devices.
+
+X-CUBE-AWS runs on three platforms. The B-L475E-IOT01 board supports WiFi® connectivity with an on-board Inventek module. It is equipped with a set of sensors able to report: humidity, temperature, 3-axis magnetic data, 3D acceleration, 3D gyroscope data, atmospheric pressure, time-of-flight, and gesture detection. The 32F413HDISCOVERY board supports WiFi® connectivity with an on-board Inventek module. The 32F769IDISCOVERY board natively provides an Ethernet interface.
