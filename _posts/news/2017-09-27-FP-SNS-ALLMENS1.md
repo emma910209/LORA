@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: FP-SNS-ALLMEMS1   
 meta: STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors
 source: http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-sns-allmems1.html
