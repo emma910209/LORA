@@ -1,8 +1,8 @@
 ---
 layout: news
-title: I-CUBE-LRWAN 
+title: I-CUBE-LRWAN   
 meta: LoRaWAN software expansion for STM32Cube (UM2073)
-source:http://www.st.com/en/embedded-software/i-cube-lrwan.html
+source: http://www.st.com/en/embedded-software/i-cube-lrwan.html
 category: recently-discovered
 ---
 
