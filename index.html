@@ -3,4 +3,15 @@ layout: default
 ---
 
     <h1>LORA PROJECT</h1>
-    <p>LORA BASED ON IOT</p>
+    <p>A Semtech innovation, LoRa Technology offers a very compelling mix of long range, low power consumption and secure data transmission. Public and private networks using this technology can provide coverage that is greater in range compared to that of existing cellular networks. It is easy to plug into the existing infrastructure and offers a solution to serve battery-operated IoT applications. Semtech builds LoRa Technology into its chipsets. These chipsets are then built into the products offered by our vast network of IoT partners and integrated into LPWANs from mobile network operators worldwide.</p>
+
+<h2>Recently Discovered Kits</h2>
+
+<ul>
+{% for news in site.categories.recently-discovered limit:2 %}
+    <li>
+    <a href="">{{news.title}}</a>
+        <p>{{news.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
