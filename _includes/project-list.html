@@ -1,0 +1,11 @@
+<ul>
+{% for project in site.pages %}
+    {% if project.type == include.type %}
+    <li>
+        <img src="{{project.image}}" alt="">
+        {{project.title}}
+        <p>{{project.meta}}</p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
