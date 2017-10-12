@@ -2,7 +2,7 @@
 {% for project in site.pages %}
     {% if project.type == include.type %}
     <li>
-        <img src="{{site.baseurl}}/img/projects/{{project.image}}" alt="">
+        <img src="{{site.baseurl}}/img/projects/{{project.image}}" alt="Photo of [{project.title}}]">
         {{project.title}}
         <p>{{project.meta}}</p>
     </li>
