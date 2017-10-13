@@ -8,14 +8,14 @@ priority: 1.0
     <h1>LORA PROJECT</h1>
     <p>A Semtech innovation, LoRa Technology offers a very compelling mix of long range, low power consumption and secure data transmission. Public and private networks using this technology can provide coverage that is greater in range compared to that of existing cellular networks. It is easy to plug into the existing infrastructure and offers a solution to serve battery-operated IoT applications. Semtech builds LoRa Technology into its chipsets. These chipsets are then built into the products offered by our vast network of IoT partners and integrated into LPWANs from mobile network operators worldwide.</p>
 
-<h2>Types of Kits</h2>
+<h2>Types of Projects</h2>
 <ol>
-   {% for kit in site.data.kit-types %}
+   {% for project in site.data.project-types %}
 
     <li>
-   <a href="#">{{kit.title}}</a> 
+   <a href="#">{{project.title}}</a> 
         
-    {{kit.content | markdownify}}
+    {{project.content | markdownify}}
     </li>
     {% endfor %}
       </ol>
