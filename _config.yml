@@ -1,3 +1,3 @@
 markedown: redcarpet
-baseurl: /LORA
+baseurl: /planets-of-the-universe1
 exclude: ['README.md']
